@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/DevopsProgrammeringPython.iml" filepath="$PROJECT_DIR$/.idea/DevopsProgrammeringPython.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Learn Python with Socratica/.idea/Learn Python with Socratica.iml" filepath="$PROJECT_DIR$/../Learn Python with Socratica/.idea/Learn Python with Socratica.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../SocketPython/.idea/SocketPython.iml" filepath="$PROJECT_DIR$/../SocketPython/.idea/SocketPython.iml" />
+    </modules>
+  </component>
+</project>
