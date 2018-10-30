@@ -1,6 +1,6 @@
-# connector - connect.py
+# DBconnector - connect.py
 
-__author__ = 'MichelSkoglund'
+__author__ = 'JeffKing'
 
 import mysql.connector
 from mysql.connector import Error
@@ -25,9 +25,9 @@ except mysql.connector.Error as e:
     else:
         print(e)
 
-#--------------------------------------------------------------
+# ---------------------------------------------------------------
 
-# SQl insert -  insert.py
+# SQl_insert_query -  insert.py
 
 import mysql.connector
 from mysql.connector import Error
@@ -40,7 +40,7 @@ try:
                                          password='root')
 
     sql_insert_query = ''' INSERT INTO person                                                                                                                                                               
-                              (name) VALUES ('Michel skoglund') '''
+                              (name) VALUES ('Kalle Karlsson') '''
 
     cursor = connection.cursor()
     result = cursor.execute(sql_insert_query)

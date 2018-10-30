@@ -27,9 +27,9 @@ while True:
     # Establish connection with client.
     c, addr = s.accept()
     print('Got connection from', addr)
-    print(input("Hej vad vill du?: "))
+    print(input("Hej vad vill du?Servern frågar: "))
 
     # send a thank you message to the client.
-    c.send('Thank you for connecting')
+    c.send('Thank you for connecting'.encode())
     # Close the connection with the client
     c.close()

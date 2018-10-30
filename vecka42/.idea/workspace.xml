@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b83a5086-b81d-446b-ba7b-035b17eeb1a9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/R_User_Library.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SocketPython/bl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SocketPython/tkinterconnect.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/funktioner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lektion1/Lektion1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lektion1/exitscript.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lektion1/socketScrips.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lektion1/sqlmysqlpythonanywhere.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appett/ImportSubProcessFiles.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appett/Matrix.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appett/Untitled.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appett/cv2showImgVideo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appett/funktioner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appett/gui.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appett/guiapp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appett/guiplayground/guiBoxClass.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appett/guiplayground/guiGuessingGame.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appett/guiplayground/guiapp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appett/guiplayground/play.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appett/manuelInsert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appett/multiServer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appett/printoutanotherwindow.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appett/printoutgui.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appett/socketScrips.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appett/sqlLocal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appett/sqldb4free.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appett/trex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appett/webconnect.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vecka43/Jeffsmulti.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vecka43/Lektion1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vecka43/Multiserver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vecka43/multiclient.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vecka43/robustmulti.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vecka43/robustmultiNOTKINTER.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vecka43/tcpclient.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vecka43/tcpserver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/DevopsProgrammeringPython.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/DevopsProgrammeringPython.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SocketPython/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/../SocketPython/client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vecka41/.idea/Vecka41.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Vecka41/.idea/Vecka41.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vecka41/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Vecka41/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vecka41/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Vecka41/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vecka41/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Vecka41/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vecka41/connector.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Vecka41/connector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vecka41/egenclient.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Vecka41/egenclient.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vecka41/egenserver.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Vecka41/egenserver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vecka41/socketsendreceive/tcpserver.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Vecka41/socketsendreceive/tcpserver.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="50379110">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.0" value="5" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="bat" value="2" />
+          <entry key="gif" value="4" />
+          <entry key="ico" value="1" />
+          <entry key="py" value="41" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Image" value="5" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Python" value="41" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="3" />
+          <entry key="py" value="3668" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Python" value="3668" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/appett/guiBoxClass.py" />
+        <option value="$PROJECT_DIR$/appett/ImportSubProcessFiles.py" />
+        <option value="$PROJECT_DIR$/appett/sqlScripts.py" />
+        <option value="$PROJECT_DIR$/appett/thread.py" />
+        <option value="$PROJECT_DIR$/appett/printoutgui.py" />
+        <option value="$PROJECT_DIR$/appett/socketScrips.py" />
+        <option value="$PROJECT_DIR$/appett/webconnect.py" />
+        <option value="$PROJECT_DIR$/appett/db4free.net.py" />
+        <option value="$PROJECT_DIR$/appett/db4free.py" />
+        <option value="$PROJECT_DIR$/appett/gui.py" />
+        <option value="$PROJECT_DIR$/appett/sqlLocal.py" />
+        <option value="$PROJECT_DIR$/appett/sqldb4free.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="407" />
+    <option name="width" value="961" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="vecka42" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vecka42" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\miche\PycharmProjects\DevOps-Programmering av Python\vecka42\appett\guiplayground" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\miche\PycharmProjects\DevOps-Programmering av Python\vecka42\appett" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.gui">
+    <configuration name="ImportSubProcessFiles" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="vecka42" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/appett" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/appett/ImportSubProcessFiles.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="gui" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="vecka42" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/appett" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/appett/gui.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="guiBoxClass" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="vecka42" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/appett" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\miche\PycharmProjects\DevOps-Programmering av Python\vecka42\appett\guiplayground\guiBoxClass.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="socketScrips" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="vecka42" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/appett" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/appett/socketScrips.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="thread" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="vecka42" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/appett" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/appett/thread.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.gui" />
+      <item itemvalue="Python.guiBoxClass" />
+      <item itemvalue="Python.ImportSubProcessFiles" />
+      <item itemvalue="Python.thread" />
+      <item itemvalue="Python.socketScrips" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.gui" />
+        <item itemvalue="Python.socketScrips" />
+        <item itemvalue="Python.thread" />
+        <item itemvalue="Python.guiBoxClass" />
+        <item itemvalue="Python.ImportSubProcessFiles" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b83a5086-b81d-446b-ba7b-035b17eeb1a9" name="Default Changelist" comment="" />
+      <created>1540079702739</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1540079702739</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="282" y="0" width="1086" height="735" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13157895" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32786885" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.1514143" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39344263" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="R Graphics" order="3" />
+      <window_info anchor="right" id="R Packages" order="4" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/appett/two.gif" />
+    <entry file="file://$PROJECT_DIR$/appett/three.gif" />
+    <entry file="file://$PROJECT_DIR$/appett/Untitled.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appett/Untitled.gif" />
+    <entry file="file://$PROJECT_DIR$/appett/thread.py" />
+    <entry file="file://$PROJECT_DIR$/appett/guiplayground/guiBoxClass.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="64" selection-start-line="4" selection-start-column="64" selection-end-line="4" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appett/printoutanotherwindow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appett/socketScrips.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appett/sqlScripts.py" />
+    <entry file="file://$PROJECT_DIR$/appett/webconnect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="57" lean-forward="true" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appett/printoutgui.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appett/Matrix.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="8" lean-forward="true" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appett/ImportSubProcessFiles.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appett/gui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="195" column="91" selection-start-line="195" selection-start-column="91" selection-end-line="195" selection-end-column="91" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appett/sqlLocal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="139" column="31" selection-start-line="139" selection-start-column="31" selection-end-line="139" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appett/sqldb4free.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="223" column="25" selection-start-line="223" selection-start-column="25" selection-end-line="223" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appett/cv2showImgVideo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

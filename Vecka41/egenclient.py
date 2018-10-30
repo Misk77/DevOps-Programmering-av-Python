@@ -11,6 +11,6 @@ s.connect(('127.0.0.1', port))
 
 # receive data from the serverz
 while True:
- print(input("Hej vad vill du?: "))
+ print(input("Hej vad vill du? clienten frågar: "))
 # close the connection
 s.close()

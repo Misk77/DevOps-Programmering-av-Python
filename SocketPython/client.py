@@ -6,22 +6,88 @@
 # reads any available data from the socket and the exits
 
 
-# !/usr/bin/python3           # This is client.py file
+############  FUNKTIONER   ###############
+################################################################################################
 
+# !/usr/bin/python3           # This is server.py file
+from tkinter import *
 import socket
 
-# create a socket object
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
-# get local machine name
-host = socket.gethostname()
-port = 9999
+def socket_server():
+    # !/usr/bin/python3           # This is server.py file
+    import socket
 
-# connection to hostname on the port
-s.connect((host, port))
+    # create the socket object
+    serversocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    # get local machine name
+    host = '127.0.0.1'
+    port = 53883
 
-# receive no more than 1024 bytes
-msg=s.recv(1024)
+    # bind to the port
+    serversocket.bind((host, port))
 
-s.close()
-print(msg.decode("ascii"))
+    # queue up to 5 request
+    serversocket.listen(5)
+
+    while True:
+        # establish a connection
+        clientsocket, addr = serversocket.accept()
+        print("Got connection from %s" % str(addr))
+        msg = "Thank you for connection" + "\r\n"
+        clientsocket.send(msg.encode("ascii"))
+        clientsocket.close()
+
+    ##############################################################################
+
+
+# !/usr/bin/python3           # This is client.py file
+from tkinter import *
+import socket
+
+
+def socket_connect():
+    # create a socket object
+    s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+
+    # get local machine name
+    host = socket.gethostname()
+    port = 9999
+
+    # connection to hostname on the port
+    s.connect((host, port))
+
+    # receive no more than 1024 bytes
+    msg = s.recv(1024)
+
+    s.close()
+    print(msg.decode("ascii"))
+
+
+###########################################
+
+
+def disconnect():
+    root.destroy()
+    exit()
+
+
+##############################################
+
+###########  TK STUFF
+
+root = Tk()
+
+# Button CLIENT
+buttonClient = Button(text="Client SOCKET", bg="black", fg="blue", command=socket_connect)
+buttonClient.pack(side=LEFT)
+
+# Button SERVER
+buttonServer = Button(text="Socket Server", bg="black", fg="blue", command=socket_server)
+buttonServer.pack(side=LEFT)
+
+# Button Disconnect
+disconnect = Button(text="Disconnect ", bg="black", fg="green", command=disconnect)
+disconnect.pack(side=LEFT)
+
+root.mainloop()

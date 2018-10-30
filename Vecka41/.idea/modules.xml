@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../EasyguigameRandomnumber/.idea/EasyguigameRandomnumber.iml" filepath="$PROJECT_DIR$/../../EasyguigameRandomnumber/.idea/EasyguigameRandomnumber.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../Python - GUI Programming (Tkinter)/.idea/Python - GUI Programming (Tkinter).iml" filepath="$PROJECT_DIR$/../../Python - GUI Programming (Tkinter)/.idea/Python - GUI Programming (Tkinter).iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Vecka41.iml" filepath="$PROJECT_DIR$/.idea/Vecka41.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../guessingGame/.idea/guessingGame.iml" filepath="$PROJECT_DIR$/../../guessingGame/.idea/guessingGame.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../Projekt/.idea/new.iml" filepath="$PROJECT_DIR$/../../Projekt/.idea/new.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../vecka42/.idea/vecka42.iml" filepath="$PROJECT_DIR$/../vecka42/.idea/vecka42.iml" />
     </modules>
   </component>
 </project>

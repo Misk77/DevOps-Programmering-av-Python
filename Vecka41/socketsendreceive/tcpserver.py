@@ -8,7 +8,7 @@ serversocket.listen(5)
 
 
 while True:
-    print('Fö')
+    inp=input()
     if inp != '{quit}':
         clientsocket, addr = serversocket.accept()
         print('Connection made by %s' % str(addr))

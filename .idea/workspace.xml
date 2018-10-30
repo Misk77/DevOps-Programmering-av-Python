@@ -2,15 +2,58 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ba941c1-40aa-4812-9bcd-5257432986c4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Python-DevOps/Sammanfattning av vecka. 35.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python-DevOps/Sammanfattning av veckan.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python-DevOps/Vecka35/Sammanfattning av vecka. 35.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Python-DevOps/Vecka35/Sammanfattning av vecka. 35.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python-DevOps/Vecka35/Vecka35-Lektion1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python-DevOps/Vecka35/Vecka35-Lektion1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python-DevOps/Vecka35/Vecka35-Lektion2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python-DevOps/Vecka35/Vecka35-Lektion2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python-DevOps/Vecka35/Vecka35-Lektion3.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python-DevOps/Vecka35/Vecka35-Lektion3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python-DevOps/Vecka36/Lektion1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python-DevOps/Vecka36/Lektion1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python-DevOps/Vecka36/Lektion2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python-DevOps/Vecka36/Lektion2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python-DevOps/kalle" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SocketPython/bl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SocketPython/tkinterconnect.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vecka42/.idea/libraries/R_User_Library.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vecka42/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vecka42/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vecka42/GUI/funktioner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vecka42/Lektion1/Lektion1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vecka42/Lektion1/exitscript.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vecka42/Lektion1/socketScrips.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vecka42/Lektion1/sqlmysqlpythonanywhere.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vecka42/appett/ImportSubProcessFiles.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vecka42/appett/Matrix.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vecka42/appett/Untitled.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vecka42/appett/cv2showImgVideo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vecka42/appett/funktioner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vecka42/appett/gui.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vecka42/appett/guiapp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vecka42/appett/guiplayground/guiBoxClass.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vecka42/appett/guiplayground/guiGuessingGame.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vecka42/appett/guiplayground/guiapp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vecka42/appett/guiplayground/play.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vecka42/appett/manuelInsert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vecka42/appett/multiServer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vecka42/appett/printoutanotherwindow.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vecka42/appett/printoutgui.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vecka42/appett/socketScrips.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vecka42/appett/sqlLocal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vecka42/appett/sqlmysqlpythonanywhere.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vecka42/appett/trex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vecka42/appett/webconnect.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vecka43/Jeffsmulti.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vecka43/Lektion1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vecka43/Multiserver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vecka43/multiclient.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vecka43/robustmulti.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vecka43/robustmultiNOTKINTER.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vecka43/tcpclient.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vecka43/tcpserver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/DevopsProgrammeringPython.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DevopsProgrammeringPython.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocketPython/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/SocketPython/client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vecka41/.idea/Vecka41.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Vecka41/.idea/Vecka41.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vecka41/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Vecka41/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vecka41/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Vecka41/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vecka41/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Vecka41/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vecka41/connector.py" beforeDir="false" afterPath="$PROJECT_DIR$/Vecka41/connector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vecka41/egenclient.py" beforeDir="false" afterPath="$PROJECT_DIR$/Vecka41/egenclient.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vecka41/egenserver.py" beforeDir="false" afterPath="$PROJECT_DIR$/Vecka41/egenserver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vecka41/socketsendreceive/tcpserver.py" beforeDir="false" afterPath="$PROJECT_DIR$/Vecka41/socketsendreceive/tcpserver.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,23 +98,87 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1502274602">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="20" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.6" value="3" />
+          <entry key="project.open.time.7" value="3" />
+          <entry key="project.open.time.8" value="7" />
+          <entry key="project.open.time.9" value="3" />
+          <entry key="project.opened" value="20" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="bat" value="3" />
+          <entry key="gif" value="2" />
+          <entry key="ico" value="1" />
+          <entry key="py" value="186" />
+          <entry key="url" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Bat" value="1" />
+          <entry key="Image" value="3" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Python" value="186" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="32" />
+          <entry key="py" value="12202" />
+          <entry key="url" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="34" />
+          <entry key="Python" value="12202" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Vecka41/socketsendreceive/tcpserver.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vecka42/appett/gui.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="68">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vecka42/appett/manuelInsert.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+                <marker date="1540829444659" expanded="true" signature="1161:3077" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Vecka41/socketsendreceive/egenclient.py">
+        <entry file="file://$PROJECT_DIR$/vecka42/appett/sqlLocal.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="714">
+              <caret line="63" column="61" selection-start-line="61" selection-start-column="44" selection-end-line="63" selection-end-column="61" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -86,27 +193,69 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../Python-DevOps" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/connector.py" />
-        <option value="$PROJECT_DIR$/../SocketPython/Python3-NetworkProgramming.py" />
-        <option value="$PROJECT_DIR$/Vecka41/connector.py" />
-        <option value="$PROJECT_DIR$/../Learn Python with Socratica/UnitTestsinPython.py" />
-        <option value="$PROJECT_DIR$/../SocketPython/chattApp/clientchatt.py" />
-        <option value="$PROJECT_DIR$/egenserver.py" />
-        <option value="$PROJECT_DIR$/Vecka41/egenserver.py" />
         <option value="$PROJECT_DIR$/Vecka41/egenclient.py" />
         <option value="$PROJECT_DIR$/Vecka41/socketsendreceive/egenclient.py" />
         <option value="$PROJECT_DIR$/Vecka41/socketsendreceive/tcpserver.py" />
+        <option value="$PROJECT_DIR$/vecka43/Lektion1/V43Lektion1.py" />
+        <option value="$PROJECT_DIR$/vecka43/Lektion1/client.py" />
+        <option value="$PROJECT_DIR$/vecka43/Lektion1/server.py" />
+        <option value="$PROJECT_DIR$/vecka43/Lektion1/tcpclient.py" />
+        <option value="$PROJECT_DIR$/vecka43/Lektion1/tvpserver.py" />
+        <option value="$PROJECT_DIR$/vecka43/Lektion1/multiconnection.py" />
+        <option value="$PROJECT_DIR$/vecka43/Lektion1/multisocket.py" />
+        <option value="$PROJECT_DIR$/vecka43/appett/gui.py" />
+        <option value="$PROJECT_DIR$/vecka43/Lektion1/Jeffgitmultisocket.py" />
+        <option value="$PROJECT_DIR$/vecka43/Lektion1/multiconnection-client.py" />
+        <option value="$PROJECT_DIR$/vecka43/Lektion1/multiserver.py" />
+        <option value="$PROJECT_DIR$/vecka43/appett/socketScrips.py" />
+        <option value="$PROJECT_DIR$/Vecka43/tcpserver.py" />
+        <option value="$PROJECT_DIR$/Vecka43/Multiserver.py" />
+        <option value="$PROJECT_DIR$/Vecka43/seb.py" />
+        <option value="$PROJECT_DIR$/Vecka43/MultiServer.py" />
+        <option value="$PROJECT_DIR$/Vecka43/Lektion1.py" />
+        <option value="$PROJECT_DIR$/Vecka43/Jeffsmulti.py" />
+        <option value="$PROJECT_DIR$/../GUIBTC/guiapp.py" />
+        <option value="$PROJECT_DIR$/../SocketPython/testWlan/server.py" />
+        <option value="$PROJECT_DIR$/../SocketPython/testWlan/client.py" />
+        <option value="$PROJECT_DIR$/../SocketPython/server.py" />
+        <option value="$PROJECT_DIR$/Vecka43/multiServer.py" />
+        <option value="$PROJECT_DIR$/../SocketPython/client.py" />
+        <option value="$PROJECT_DIR$/SocketPython/client.py" />
+        <option value="$PROJECT_DIR$/SocketPython/bl.py" />
+        <option value="$PROJECT_DIR$/vecka42/GUI/funktioner.py" />
+        <option value="$PROJECT_DIR$/vecka42/appett/printoutgui.py" />
+        <option value="$PROJECT_DIR$/vecka42/appett/ImportSubProcessFiles.py" />
+        <option value="$PROJECT_DIR$/Vecka43/multiclient.py" />
+        <option value="$PROJECT_DIR$/vecka42/appett/multiServer.py" />
+        <option value="$PROJECT_DIR$/vecka42/Lektion1/socketScrips.py" />
+        <option value="$PROJECT_DIR$/Vecka43/robustmulti.py" />
+        <option value="$PROJECT_DIR$/Vecka43/robustmultiNOTKINTER.py" />
+        <option value="$PROJECT_DIR$/vecka42/appett/sqlScripts.py" />
+        <option value="$USER_HOME$/AppData/Local/Temp/tkinter-how-to-create-submenus-in-menubar.url" />
+        <option value="$PROJECT_DIR$/vecka42/appett/webconnect.py" />
+        <option value="$PROJECT_DIR$/vecka42/appett/cv2showImgVideo.py" />
+        <option value="$PROJECT_DIR$/Vecka43/tcpclient.py" />
+        <option value="$PROJECT_DIR$/Vecka43/Danelssocket/server.py" />
+        <option value="$PROJECT_DIR$/Vecka43/Danelssocket/client.py" />
+        <option value="$PROJECT_DIR$/vecka42/appett/socketScrips.py" />
+        <option value="$PROJECT_DIR$/vecka42/appett/funktioner.py" />
+        <option value="$PROJECT_DIR$/vecka42/appett/sqlLocal.py" />
+        <option value="$PROJECT_DIR$/vecka42/appett/sqlmysqlpythonanywhere.py" />
+        <option value="$PROJECT_DIR$/vecka42/appett/gui.py" />
+        <option value="$PROJECT_DIR$/vecka42/appett/guiapp.py" />
+        <option value="$PROJECT_DIR$/vecka42/appett/manuelInsert.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="1081" />
+    <option name="x" value="191" />
+    <option name="y" value="29" />
+    <option name="width" value="1080" />
     <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -120,27 +269,35 @@
           <expand>
             <path>
               <item name="DevopsProgrammeringPython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DevopsPython" type="462c0819:PsiDirectoryNode" />
+              <item name="DevOps-Programmering av Python" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DevopsProgrammeringPython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DevopsPython" type="462c0819:PsiDirectoryNode" />
-              <item name="Vecka41" type="462c0819:PsiDirectoryNode" />
+              <item name="DevOps-Programmering av Python" type="462c0819:PsiDirectoryNode" />
+              <item name="vecka42" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DevopsProgrammeringPython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DevopsPython" type="462c0819:PsiDirectoryNode" />
-              <item name="Vecka41" type="462c0819:PsiDirectoryNode" />
-              <item name="socketsendreceive" type="462c0819:PsiDirectoryNode" />
+              <item name="DevOps-Programmering av Python" type="462c0819:PsiDirectoryNode" />
+              <item name="vecka42" type="462c0819:PsiDirectoryNode" />
+              <item name="appett" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DevopsProgrammeringPython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SocketPython" type="462c0819:PsiDirectoryNode" />
+              <item name="DevOps-Programmering av Python" type="462c0819:PsiDirectoryNode" />
+              <item name="vecka42" type="462c0819:PsiDirectoryNode" />
+              <item name="Lektion1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DevopsProgrammeringPython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SocketPython" type="462c0819:PsiDirectoryNode" />
-              <item name="chattApp" type="462c0819:PsiDirectoryNode" />
+              <item name="DevOps-Programmering av Python" type="462c0819:PsiDirectoryNode" />
+              <item name="Vecka43" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DevopsProgrammeringPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DevOps-Programmering av Python" type="462c0819:PsiDirectoryNode" />
+              <item name="Vecka43" type="462c0819:PsiDirectoryNode" />
+              <item name="Danelssocket" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -150,15 +307,18 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Learn Python with Socratica" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GUIBTC/guiapp.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\miche\PycharmProjects\DevopsPython\Vecka41\socketsendreceive" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\miche\PycharmProjects\DevopsPython\Vecka41" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\miche\PycharmProjects\DevOps-Programmering av Python\vecka42\Lektion1" />
+      <recent name="C:\Users\miche\PycharmProjects\DevOps-Programmering av Python\vecka42\appett" />
+      <recent name="C:\Users\miche\PycharmProjects\DevOps-Programmering av Python\vecka42\appett\guiplayground" />
+      <recent name="C:\Users\miche\PycharmProjects\DevopsPython\Vecka41\socketsendreceive" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -173,20 +333,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.egenclient (1)">
-    <configuration name="client" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Learn Python with Socratica" />
+  <component name="RunManager" selected="Python.gui">
+    <configuration name="funktioner" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DevopsProgrammeringPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../SocketPython" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/vecka42/appett" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../SocketPython/client.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/vecka42/appett/funktioner.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -195,19 +355,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="egenclient (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Learn Python with Socratica" />
+    <configuration name="gui (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DevopsProgrammeringPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Vecka41/socketsendreceive" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/appett" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Vecka41/socketsendreceive/egenclient.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/appett/gui.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -216,19 +376,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="egenclient" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Learn Python with Socratica" />
+    <configuration name="gui" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DevopsProgrammeringPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Vecka41" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/vecka42/appett" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Vecka41/egenclient.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/vecka42/appett/gui.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -237,19 +397,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="egenserver (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Learn Python with Socratica" />
+    <configuration name="manuelInsert" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DevopsProgrammeringPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Vecka41" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/vecka42/appett" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Vecka41/egenserver.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/vecka42/appett/manuelInsert.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -258,19 +418,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tcpserver" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Learn Python with Socratica" />
+    <configuration name="socketScrips" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DevopsProgrammeringPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Vecka41/socketsendreceive" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/vecka42/appett" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Vecka41/socketsendreceive/tcpserver.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/vecka42/appett/socketScrips.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -280,19 +440,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.egenserver (1)" />
-      <item itemvalue="Python.egenclient" />
-      <item itemvalue="Python.tcpserver" />
-      <item itemvalue="Python.egenclient (1)" />
-      <item itemvalue="Python.client" />
+      <item itemvalue="Python.gui" />
+      <item itemvalue="Python.socketScrips" />
+      <item itemvalue="Python.funktioner" />
+      <item itemvalue="Python.gui (1)" />
+      <item itemvalue="Python.manuelInsert" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.egenclient (1)" />
-        <item itemvalue="Python.tcpserver" />
-        <item itemvalue="Python.client" />
-        <item itemvalue="Python.egenclient" />
-        <item itemvalue="Python.egenserver (1)" />
+        <item itemvalue="Python.gui" />
+        <item itemvalue="Python.manuelInsert" />
+        <item itemvalue="Python.gui (1)" />
+        <item itemvalue="Python.funktioner" />
+        <item itemvalue="Python.socketScrips" />
       </list>
     </recent_temporary>
   </component>
@@ -311,17 +471,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20045386" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12783661" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.3295082" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.3295082" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
@@ -329,101 +488,288 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Run" order="3" weight="0.38956127" />
+      <window_info anchor="right" id="Run" order="3" weight="0.35588235" />
+      <window_info anchor="right" id="R Graphics" order="4" />
+      <window_info anchor="right" id="R Packages" order="5" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../Python-DevOps" />
+    </ignored-roots>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/connector.py" />
-    <entry file="file://$PROJECT_DIR$/../SocketPython/Python3-NetworkProgramming.py">
+    <entry file="file://$PROJECT_DIR$/vecka43/appett/printoutanotherwindow.py" />
+    <entry file="file://$PROJECT_DIR$/vecka43/appett/printoutgui.py" />
+    <entry file="file://$PROJECT_DIR$/vecka43/appett/socketScrips.py" />
+    <entry file="file://$PROJECT_DIR$/vecka43/appett/sqlScripts.py" />
+    <entry file="file://$PROJECT_DIR$/vecka43/appett/Untitled.gif" />
+    <entry file="file://$PROJECT_DIR$/vecka43/appett/Untitled.ico" />
+    <entry file="file://$PROJECT_DIR$/vecka43/appett/webconnect.py" />
+    <entry file="file://$PROJECT_DIR$/vecka43/GUI/funktioner.py" />
+    <entry file="file://$PROJECT_DIR$/Vecka43/tcpserver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="306">
+          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Learn Python with Socratica/UnitTestsinPython.py">
+    <entry file="file://$PROJECT_DIR$/vecka42/appett/Untitled.gif" />
+    <entry file="file://$PROJECT_DIR$/../GUIBTC/guiapp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="92" selection-start-line="1" selection-start-column="92" selection-end-line="1" selection-end-column="92" />
+        <state relative-caret-position="210">
+          <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Vecka41/connector.py">
+    <entry file="file://$PROJECT_DIR$/Vecka43/Jeffsmulti.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="36" column="58" lean-forward="true" selection-start-line="36" selection-start-column="58" selection-end-line="36" selection-end-column="58" />
+        <state relative-caret-position="528">
+          <caret line="104" selection-start-line="104" selection-end-line="104" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Vecka41/connectGoogle.py">
+    <entry file="file://$PROJECT_DIR$/Vecka43/Lektion1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        <state relative-caret-position="51">
+          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../SocketPython/chattApp/serverchatt.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SocketPython/chattApp/clientchatt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="e#23#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vecka41/egenclient.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files (x86)/Python37-32/Lib/threading.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vecka41/egenserver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="32" column="42" lean-forward="true" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../SocketPython/testWlan/client.py" />
+    <entry file="file://$PROJECT_DIR$/../SocketPython/testWlan/server.py" />
     <entry file="file://$PROJECT_DIR$/../SocketPython/server.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        <state relative-caret-position="367">
+          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../SocketPython/client.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
+        <state relative-caret-position="170">
+          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SocketPython/tkinterconnect.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SocketPython/server.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SocketPython/client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multiServer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vecka42/appett/guiplayground/guiapp.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SocketPython/bl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vecka42/GUI/funktioner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vecka42/appett/printoutgui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vecka43/multiclient.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vecka43/robustmultiNOTKINTER.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/tkinter-how-to-create-submenus-in-menubar.url" />
+    <entry file="file://$PROJECT_DIR$/vecka42/Lektion1/sqlmysqlpythonanywhere.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vecka43/robustmulti.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vecka42/appett/webconnect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vecka42/appett/printoutanotherwindow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-331">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vecka42/appett/multiServer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vecka42/appett/Matrix.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vecka42/appett/ImportSubProcessFiles.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vecka42/appett/cv2showImgVideo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="30" column="57" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vecka43/tcpclient.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Vecka41/socketsendreceive/egenclient.py">
+    <entry file="file://$PROJECT_DIR$/Vecka43/Danelssocket/server.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="171">
+          <caret line="68" column="27" lean-forward="true" selection-end-line="89" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Vecka41/socketsendreceive/tcpserver.py">
+    <entry file="file://$PROJECT_DIR$/Vecka43/multiServer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="391">
+          <caret line="24" column="19" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vecka42/Lektion1/socketScrips.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="69" lean-forward="true" selection-end-line="170" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vecka43/Danelssocket/client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/appett/ImportSubProcessFiles.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/appett/guiapp.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/appett/gui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="34" lean-forward="true" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vecka42/appett/funktioner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vecka42/appett/socketScrips.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="150" column="24" lean-forward="true" selection-start-line="150" selection-start-column="24" selection-end-line="150" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vecka42/appett/sqlmysqlpythonanywhere.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="41" column="24" lean-forward="true" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vecka42/appett/guiapp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vecka42/appett/gui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vecka42/appett/sqlLocal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="63" column="61" selection-start-line="61" selection-start-column="44" selection-end-line="63" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vecka42/appett/manuelInsert.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+            <marker date="1540829444659" expanded="true" signature="1161:3077" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
