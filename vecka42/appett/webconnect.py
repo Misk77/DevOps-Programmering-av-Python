@@ -2,7 +2,14 @@ import webbrowser
 
 
 def homeConnect(): \
-        webbrowser.open('https://miskplayground.000webhostapp.com/index.html', new=2)
+        webbrowser.open('http://michelskoglund.online/', new=2)
+
+
+def wordPressConnect(): \
+        webbrowser.open('https://michel77.000webhostapp.com/', new=2)
+
+def downloadpage(): \
+        webbrowser.open('http://michelskoglund.online/downloads/', new=2)
 
 
 def googleConnect(): \

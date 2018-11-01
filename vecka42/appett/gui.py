@@ -2,12 +2,16 @@ from tkinter import *
 from tkinter import ttk
 from appett.sqlLocal import sqlConnector, createDatabase, dropDatabase, insertQuery, showDb, createTables, \
     useProfiles, readFromDB, selectDB, describeTable, dropTables
-from appett.sqldb4free import sqldb4freeConnector, sqldb4freecreateTables, \
+from appett.sqldb4free import sqldb4freeConnector, sqldb4freecreateTables, sqldb4freeCreateDatabase, \
     sqldb4freeDescribeTable, sqldb4freedropDatabase, sqldb4freeInsertQuery, sqldb4freeReadFromDB, sqldb4freeSelectDB, \
     sqldb4freeShowDb, sqldb4freeUsedatabase, sqldb4freedropTables
+from appett.sqlhostinger import sqlhostingConnector, sqlhostingCreateDatabase, sqlhostingCreateTables, \
+    sqlhostingDescribeTable, sqlhostingDropDatabase, sqlhostingDropTables, sqlhostingInsertQuery, sqlhostingReadFromDB, \
+    sqlhostingSelectDB, sqlhostingShowDb, sqlhostingUsedatabase
 from appett.socketScrips import socket_connect, server, serverUI
-from appett.webconnect import homeConnect, googleConnect, slackConnect, guiPthonkConnect, soloLearnConnect, \
-    unofficialWinBIN
+from appett.webconnect import homeConnect, wordPressConnect, googleConnect, slackConnect, guiPthonkConnect, \
+    soloLearnConnect, \
+    unofficialWinBIN, downloadpage
 from appett.cv2showImgVideo import fpsShow, showimage
 from appett.ImportSubProcessFiles import Matrix, powershell
 from appett.printoutgui import printSomething
@@ -22,7 +26,7 @@ root = Tk()
 root.configure(background="black")
 root.iconbitmap(default="Untitled.ico")
 root.title("Michel´s Playground Title")
-root.geometry("710x370")
+root.geometry("910x350")
 guiframe = Frame(root)
 guiframe.grid(row=0, column=2, columnspan=7, rowspan=7)
 """
@@ -78,9 +82,9 @@ sqllocal.add_command(label="Exit", command=root.quit)
 sqldb4free = Menu(sqlmenu, tearoff=False)
 sqlmenu.add_cascade(label="mysql db4free.net ", menu=sqldb4free)
 sqldb4free.add_command(label="Connect mysql db4free.net ", command=sqldb4freeConnector)
-#  Create database  CANT be done in db4free.net  No Privileges
-# sqldb4free.add_command(label="Create database mysql db4free.net", command=sqldb4freeCreateDatabase)
-# sqldb4free.add_command(label="Drop database mysql db4free.net", command=sqldb4freedropDatabase)
+# Create database  CANT be done in db4free.net  No Privileges
+sqldb4free.add_command(label="Create database mysql db4free.net", command=sqldb4freeCreateDatabase)
+sqldb4free.add_command(label="Drop database mysql db4free.net", command=sqldb4freedropDatabase)
 sqldb4free.add_command(label="Insert table mysql db4free.net", command=sqldb4freeInsertQuery)
 sqldb4free.add_command(label="Show database mysql db4free.net", command=sqldb4freeShowDb)
 sqldb4free.add_command(label="Use Database miskdb mysql db4free.net", command=sqldb4freeUsedatabase)
@@ -89,9 +93,25 @@ sqldb4free.add_command(label="Read database mysql db4free.net", command=sqldb4fr
 sqldb4free.add_command(label="Create table in profiles mysql db4free.net", command=sqldb4freecreateTables)
 sqldb4free.add_command(label="Describe table mysql db4free.net", command=sqldb4freeDescribeTable)
 sqldb4free.add_command(label="DROP TABLE profiles mysql db4free.net", command=sqldb4freedropTables)
-
 sqldb4free.add_separator()
 sqldb4free.add_command(label="Exit", command=root.quit)
+# SQL hostinger.com
+sqlhosting = Menu(sqlmenu, tearoff=False)
+sqlmenu.add_cascade(label="mysql hostinger.com ", menu=sqlhosting)
+sqlhosting.add_command(label="Connect mysql hostinger.com ", command=sqlhostingConnector)
+# Create database  CANT be done in db4free.net  No Privileges
+sqlhosting.add_command(label="Create database mysql hostinger", command=sqlhostingCreateDatabase)
+sqlhosting.add_command(label="Drop database mysql hostinger", command=sqlhostingDropDatabase)
+sqlhosting.add_command(label="Insert table mysql hostinger", command=sqlhostingInsertQuery)
+sqlhosting.add_command(label="Show database mysql hostinger", command=sqlhostingShowDb)
+sqlhosting.add_command(label="Use Database miskdb mysql dhostinger", command=sqlhostingUsedatabase)
+sqlhosting.add_command(label="Select Database miskdb mysql hostinger", command=sqlhostingSelectDB)
+sqlhosting.add_command(label="Read database mysql hostinger", command=sqlhostingReadFromDB)
+sqlhosting.add_command(label="Create table in profiles mysql hostinger", command=sqlhostingCreateTables)
+sqlhosting.add_command(label="Describe table mysql hostinger", command=sqlhostingDescribeTable)
+sqlhosting.add_command(label="DROP TABLE profiles hostinger", command=sqlhostingDropTables)
+sqlhosting.add_separator()
+sqlhosting.add_command(label="Exit", command=root.quit)
 
 # HomePage options menu
 homePage = Menu(menubar, tearoff=0)
@@ -121,7 +141,7 @@ menubar.add_cascade(label="Programming", menu=programmingmenu)
 programmingmenu.add_command(label="SoloLearn", command=soloLearnConnect)
 programmingmenu.add_command(label="Slack", command=slackConnect)
 programmingmenu.add_command(label="Python 3 - GUI Programming (Tkinter)", command=guiPthonkConnect)
-programmingmenu.add_command(label="Programming 3", command='')
+programmingmenu.add_command(label="Download Page", command=downloadpage)
 programmingmenu.add_command(label="Programming 4", command='')
 programmingmenu.add_command(label="Programming 5", command='')
 programmingmenu.add_separator()
@@ -149,6 +169,7 @@ buttonClient.bind("<Return>", lambda event: socket_connect)
 buttonClient.grid(column=0, row=3)
 
 # SQL STUFF
+# SQL LOCAL
 # Button Sql CONNECTOR
 buttonConnector = ttk.Button(text="Connect SQL Local", command=sqlConnector)
 buttonConnector.bind("<Return>", lambda event: sqlConnector())
@@ -193,50 +214,50 @@ buttonDescribeTable.grid(column=1, row=12)
 buttonDropTable = ttk.Button(text="Sql Local DROP table", command=dropTables)
 buttonDropTable.bind("<Return>", lambda event: dropTables())
 buttonDropTable.grid(column=1, row=10)
-# Sql db4free.net #########################################################################
+# SQL hostinger.com #########################################################################
 # Button Connect SQL db4free.net
-buttonConnector = ttk.Button(text="Connect SQL db4free.net", command=sqldb4freeConnector)
-buttonConnector.bind("<Return>", lambda event: sqldb4freeConnector())
+buttonConnector = ttk.Button(text="Connect SQL hostinger.com", command=sqlhostingConnector)
+buttonConnector.bind("<Return>", lambda event: sqlhostingConnector())
 buttonConnector.grid(column=2, row=2)
 # Button Sql db4free.net CREATE Database CAnt be done on db4free.net NO PRIVIGLES
-buttoncreateDatabase = ttk.Button(text="SQL db4free.net create Database", command=createDatabase)
-buttoncreateDatabase.bind("<Return>", lambda event: createDatabase())
+buttoncreateDatabase = ttk.Button(text="SQL hostinger.com create Database", command=sqlhostingCreateDatabase)
+buttoncreateDatabase.bind("<Return>", lambda event: sqlhostingCreateDatabase())
 buttoncreateDatabase.grid(column=2, row=3)
 # Button Sql db4free.net Use Person
-buttonUsePerson = ttk.Button(text="SQL db4free.net Use database miskdb", command=sqldb4freeUsedatabase)
-buttonUsePerson.bind("<Return>", lambda event: sqldb4freeUsedatabase())
+buttonUsePerson = ttk.Button(text="SQL hostinger.com Use database miskdb", command=sqlhostingUsedatabase)
+buttonUsePerson.bind("<Return>", lambda event: sqlhostingUsedatabase())
 buttonUsePerson.grid(column=2, row=4)
 # Button Sql db4free.net SELECT DATABASE()
-buttonSelectDatabase = ttk.Button(text="SQL db4free.net Select profiles", command=sqldb4freeSelectDB)
-buttonSelectDatabase.bind("<Return>", lambda event: sqldb4freeSelectDB())
+buttonSelectDatabase = ttk.Button(text="SQL hostinger.com Select profiles", command=sqlhostingSelectDB)
+buttonSelectDatabase.bind("<Return>", lambda event: sqlhostingSelectDB())
 buttonSelectDatabase.grid(column=2, row=5)
 # Button Create  Tables
-buttonTables = ttk.Button(text="SQL db4free.net create Tables", command=sqldb4freecreateTables)
-buttonTables.bind("<Return>", lambda event: sqldb4freecreateTables())
+buttonTables = ttk.Button(text="SQL hostinger.com create Tables", command=sqlhostingCreateTables)
+buttonTables.bind("<Return>", lambda event: sqlhostingCreateTables())
 buttonTables.grid(column=2, row=6)
 # Button Sql INSERT query
-buttonInsertQuery = ttk.Button(text="SQL db4free.net Insert Table", command=sqldb4freeInsertQuery)
-buttonInsertQuery.bind("<Return>", lambda event: sqldb4freeInsertQuery())
+buttonInsertQuery = ttk.Button(text="SQL hostinger.com Insert Table", command=sqlhostingInsertQuery)
+buttonInsertQuery.bind("<Return>", lambda event: sqlhostingInsertQuery())
 buttonInsertQuery.grid(column=2, row=7)
 # Button See the SQL SHOW DATABASES
-buttonShowDb = ttk.Button(text="SQL db4free.net show databases", command=sqldb4freeShowDb)
-buttonShowDb.bind("<Return>", lambda event: sqldb4freeShowDb())
+buttonShowDb = ttk.Button(text="SQL hostinger.com show databases", command=sqlhostingShowDb)
+buttonShowDb.bind("<Return>", lambda event: sqlhostingShowDb())
 buttonShowDb.grid(column=2, row=8)
 # Button Sql drop Database
-buttonDropDatabase = ttk.Button(text="Sql db4free.net drop Database", command=sqldb4freedropDatabase)
-buttonDropDatabase.bind("<Return>", lambda event: sqldb4freedropDatabase())
+buttonDropDatabase = ttk.Button(text="SQL hostinger.com drop Database", command=sqlhostingDropDatabase)
+buttonDropDatabase.bind("<Return>", lambda event: sqlhostingDropDatabase())
 buttonDropDatabase.grid(column=2, row=9)
 # Button Sql READ Database
-buttonReadDatabase = ttk.Button(text="Sql db4free.net READ Database", command=sqldb4freeReadFromDB)
-buttonReadDatabase.bind("<Return>", lambda event: sqldb4freeReadFromDB())
+buttonReadDatabase = ttk.Button(text="SQL hostinger.com READ Database", command=sqlhostingReadFromDB)
+buttonReadDatabase.bind("<Return>", lambda event: sqlhostingReadFromDB())
 buttonReadDatabase.grid(column=2, row=11)
 # Button Sql DESCRIBE tables
-buttonDescribeTable = ttk.Button(text="Sql db4free.net DESCRIBE table", command=sqldb4freeDescribeTable)
-buttonDescribeTable.bind("<Return>", lambda event: sqldb4freeDescribeTable())
+buttonDescribeTable = ttk.Button(text="SQL hostinger.com DESCRIBE table", command=sqlhostingDescribeTable)
+buttonDescribeTable.bind("<Return>", lambda event: sqlhostingDescribeTable())
 buttonDescribeTable.grid(column=2, row=12)
 # Button Sql DROP tables
-buttonDropTable = ttk.Button(text="Sql db4free.net DROP table", command=sqldb4freedropTables)
-buttonDropTable.bind("<Return>", lambda event: sqldb4freedropTables())
+buttonDropTable = ttk.Button(text="SQL hostinger.com DROP table", command=sqlhostingDropTables)
+buttonDropTable.bind("<Return>", lambda event: sqlhostingDropTables())
 buttonDropTable.grid(column=2, row=10)
 
 #  Web  Connector STUFF   #
@@ -244,22 +265,30 @@ buttonDropTable.grid(column=2, row=10)
 buttonWebSite = ttk.Button(text="Visit My HomePage", command=homeConnect)
 buttonWebSite.bind("<Return>", lambda event: homeConnect())
 buttonWebSite.grid(column=3, row=2)
+# Button visit michels wordpress
+buttonWebSite = ttk.Button(text="Visit My Wordpress", command=wordPressConnect)
+buttonWebSite.bind("<Return>", lambda event: wordPressConnect())
+buttonWebSite.grid(column=3, row=3)
+# Button visit DownloadPage
+buttonWebSite = ttk.Button(text="Visit My DownloadPage", command=downloadpage)
+buttonWebSite.bind("<Return>", lambda event: downloadpage())
+buttonWebSite.grid(column=3, row=4)
 # Button visit Google
 buttonWebSite = ttk.Button(text="Search Google", command=googleConnect)
 buttonWebSite.bind("<Return>", lambda event: googleConnect())
-buttonWebSite.grid(column=3, row=3)
+buttonWebSite.grid(column=3, row=5)
 # Button  Slack
 buttonWebSite = ttk.Button(text="Slack", command=slackConnect)
 buttonWebSite.bind("<Return>", lambda event: slackConnect())
-buttonWebSite.grid(column=3, row=4)
+buttonWebSite.grid(column=3, row=6)
 # Button GUI Programming (Tkinter
 buttonWebSite = ttk.Button(text="Python 3 - GUI Programming (Tkinter)", command=guiPthonkConnect)
 buttonWebSite.bind("<Return>", lambda event: guiPthonkConnect())
-buttonWebSite.grid(column=3, row=5)
+buttonWebSite.grid(column=3, row=7)
 # Button Unofficial Windows Binaries for Python Extension Packages
 buttonWebSite = ttk.Button(text="Unofficial Win Binaries for Python Extension Packages", command=unofficialWinBIN)
 buttonWebSite.bind("<Return>", lambda event: unofficialWinBIN())
-buttonWebSite.grid(column=3, row=5)
+buttonWebSite.grid(column=3, row=8)
 
 # Misc STUFF
 # Button guess game

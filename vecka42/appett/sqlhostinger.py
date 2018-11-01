@@ -20,14 +20,12 @@ import sshtunnel
 # connector - connect.py
 # DBconnector - connect.py
 """
-database account misk77 with 
-host name to access the server is db4free.net and the port is 3306. You can use phpMyAdmin on our website to log in to the server.
-https://www.db4free.net/phpMyAdmin/
 
-The database has been created successfully.
-host: db4free.net and the port is 3306
-Database: miskdb
-Username: misk77
+MySQL server hostname is: sql150.main-hosting.eu.
+DATABASE                USERNAME
+u209758462_miskb	u209758462_misk7
+host: sql150.main-hosting.eu.
+
 Email: michelskoglund@hotmail.se
 
 """
@@ -35,16 +33,16 @@ Email: michelskoglund@hotmail.se
 __author__ = 'Michel Skoglund'
 
 
-def sqldb4freeConnector():
+def sqlhostingConnector():
     root = Tk()
     try:
         connect = mysql.connector.connect(
-            user='misk77',
+            user='u209758462_misk7',
             passwd='mi235277sk',
-            host='db4free.net',
-            db='miskdb')
+            host='sql150.main-hosting.eu',
+            db='')
         label = Label(root, text=str(
-            2 * '\n') + "Det Funkar!! Du har lyckats att koppla Dig till Din databas! på db4free.net" + str(
+            2 * '\n') + "Det Funkar!! Du har lyckats att koppla Dig till Din databas! på hosting.eu" + str(
             2 * '\n'))
         label.pack()
 
@@ -53,14 +51,14 @@ def sqldb4freeConnector():
         if e.errno == errorcode.ER_ACCESS_DENIED_ERROR:
             label = Label(root,
                           text=str(
-                              2 * '\n') + "Kopplingen fungerar inte!\n db4free.net" + str(
+                              2 * '\n') + "Kopplingen fungerar inte!\n hosting.eu" + str(
                               2 * '\n'))
             label.pack()
 
 
         elif e.errno == errorcode.ER_BAD_DB_ERROR:
             label = Label(root, text=str(
-                2 * '\n') + "Databas namn hittades inte!! \nMdb4free.net" + str(2 * '\n'))
+                2 * '\n') + "Databas namn hittades inte!! \nhosting.eu" + str(2 * '\n'))
             label.pack()
 
 
@@ -71,36 +69,34 @@ def sqldb4freeConnector():
     root.mainloop()
 
 
-
-
 # SQl create Database # Cant create database at db4free  No Privileges
-def sqldb4freeCreateDatabase():
+def sqlhostingCreateDatabase():
     root = Tk()
     try:
-        connection = mysql.connector.connect(user='misk77',
+        connection = mysql.connector.connect(user='u209758462_misk7',
                                              passwd='mi235277sk',
-                                             host='db4free.net',
-                                             db='miskdb')
+                                             host='sql150.main-hosting.eu',
+                                             db='')
 
-        sql_insert_query = ''' CREATE DATABASE profiles;  '''
+        sql_insert_query = ''' CREATE DATABASE u209758462_miskb;  '''
 
         cursor = connection.cursor()
         result = cursor.execute(sql_insert_query)
         connection.commit()
 
-        label = Label(root, text="Databasen skapades db4free.net")
+        label = Label(root, text="Databasen skapades hosting.eu.")
         label.pack()
 
     except mysql.connector.Error as error:
         connection.rollback()  # rollback if any exception occured
-        label = Label(root, text="Databasen skapades misslyckades db4free.net" + str(error))
+        label = Label(root, text="Databasen skapades misslyckades hosting.eu." + str(error))
         label.pack()
     finally:
         # closing database connection.
         if connection.is_connected():
             cursor.close()
             connection.close()
-            label = Label(root, text="db4free.net MySQL koppling nerkopplad")
+            label = Label(root, text="hosting.eu. MySQL koppling nerkopplad")
             label.pack()
     root.mainloop()
 
@@ -108,45 +104,45 @@ def sqldb4freeCreateDatabase():
 # SQl DROP DATABASE
 
 
-def sqldb4freedropDatabase():
+def sqlhostingDropDatabase():
     root = Tk()
     try:
-        connection = mysql.connector.connect(user='misk77',
+        connection = mysql.connector.connect(user='u209758462_misk7',
                                              passwd='mi235277sk',
-                                             host='db4free.net',
-                                             db='miskdb')
+                                             host='sql150.main-hosting.eu',
+                                             db='u209758462_miskb')
 
-        sql_insert_query = ''' DROP DATABASE profiles;  '''
+        sql_insert_query = ''' DROP DATABASE u209758462_miskb;  '''
 
         cursor = connection.cursor()
         result = cursor.execute(sql_insert_query)
         connection.commit()
 
-        label = Label(root, text="Databasen deleted db4free.net")
+        label = Label(root, text="Databasen deleted hosting.eu.")
         label.pack()
 
     except mysql.connector.Error as error:
         connection.rollback()  # rollback if any exception occured
-        label = Label(root, text="Databasen delete misslyckades {} db4free.net".format(error))
+        label = Label(root, text="Databasen delete misslyckades {} hosting.eu.".format(error))
         label.pack()
     finally:
         # closing database connection.
         if connection.is_connected():
             cursor.close()
             connection.close()
-            label = Label(root, text="db4free.net MySQL koppling nerkopplad")
+            label = Label(root, text="hosting.eu. MySQL koppling nerkopplad")
             label.pack()
     root.mainloop()
 
 
 # Sql create Tables -
-def sqldb4freecreateTables():
+def sqlhostingCreateTables():
     root = Tk()
     try:
-        connection = mysql.connector.connect(user='misk77',
+        connection = mysql.connector.connect(user='u209758462_misk7',
                                              passwd='mi235277sk',
-                                             host='db4free.net',
-                                             db='miskdb')
+                                             host='sql150.main-hosting.eu',
+                                             db='u209758462_miskb')
 
         sql_insert_query = ''' 
 CREATE  TABLE profiles
@@ -168,31 +164,31 @@ default character set= utf8;
         result = cursor.execute(sql_insert_query)
         connection.commit()
 
-        label = Label(root, text="CREATED TABLE profiles skapades {} db4free.net".format(sql_insert_query))
+        label = Label(root, text="CREATED TABLE profiles skapades {} hosting.eu.".format(sql_insert_query))
         label.pack()
 
     except mysql.connector.Error as error:
         connection.rollback()  # rollback if any exception occured
-        label = Label(root, text="CREATED TABLE profiles misslyckades {} db4free.net".format(error))
+        label = Label(root, text="CREATED TABLE profiles misslyckades {} hosting.eu.".format(error))
         label.pack()
     finally:
         # closing database connection.
         if connection.is_connected():
             cursor.close()
             connection.close()
-            label = Label(root, text="db4free.net MySQL koppling nerkopplad")
+            label = Label(root, text="hosting.eu. MySQL koppling nerkopplad")
             label.pack
     root.mainloop()
 
 
 # DROP TABLE
-def sqldb4freedropTables():
+def sqlhostingDropTables():
     root = Tk()
     try:
-        connection = mysql.connector.connect(user='misk77',
+        connection = mysql.connector.connect(user='u209758462_misk7',
                                              passwd='mi235277sk',
-                                             host='db4free.net',
-                                             db='miskdb')
+                                             host='sql150.main-hosting.eu',
+                                             db='u209758462_miskb')
 
         sql_insert_query = ''' 
 DROP TABLE profiles;
@@ -202,19 +198,19 @@ DROP TABLE profiles;
         result = cursor.execute(sql_insert_query)
         connection.commit()
 
-        label = Label(root, text="DROP TABLE profiles lyckades {} db4free.net".format(sql_insert_query))
+        label = Label(root, text="DROP TABLE profiles lyckades {} hosting.eu.".format(sql_insert_query))
         label.pack()
 
     except mysql.connector.Error as error:
         connection.rollback()  # rollback if any exception occured
-        label = Label(root, text="DROP TABLE misslyckades {} db4free.net".format(error))
+        label = Label(root, text="DROP TABLE misslyckades {} hosting.eu.".format(error))
         label.pack()
     finally:
         # closing database connection.
         if connection.is_connected():
             cursor.close()
             connection.close()
-            label = Label(root, text="db4free.net MySQL koppling nerkopplad ")
+            label = Label(root, text="hosting.eu. MySQL koppling nerkopplad ")
             label.pack
 
     root.mainloop()
@@ -223,13 +219,13 @@ DROP TABLE profiles;
 # SQl insert -  insert.py
 
 
-def sqldb4freeInsertQuery():
+def sqlhostingInsertQuery():
     root = Tk()
     try:
-        connection = mysql.connector.connect(user='misk77',
+        connection = mysql.connector.connect(user='u209758462_misk7',
                                              passwd='mi235277sk',
-                                             host='db4free.net',
-                                             db='miskdb')
+                                             host='sql150.main-hosting.eu',
+                                             db='u209758462_miskb')
 
         sql_insert_query = ''' INSERT INTO profiles VALUE 
 ('Michel','skoglund','michelskoglund@hotmail.com','41','student','sweden','gitarrer','178','M',NOW(),NULL); '''
@@ -238,19 +234,19 @@ def sqldb4freeInsertQuery():
         result = cursor.execute(sql_insert_query)
         connection.commit()
 
-        label = Label(root, text="profiles VALUE  har lagrats i tabellen db4free.net")
+        label = Label(root, text="profiles VALUE  har lagrats i tabellen hosting.eu.")
         label.pack()
 
     except mysql.connector.Error as error:
         connection.rollback()  # rollback if any exception occured
-        label = Label(root, text="Lagring i profiles misslyckades {} db4free.net".format(error))
+        label = Label(root, text="Lagring i profiles misslyckades {} hosting.eu.".format(error))
         label.pack()
     finally:
         # closing database connection.
         if connection.is_connected():
             cursor.close()
             connection.close()
-            label = Label(root, text="db4free.net MySQL koppling nerkopplad")
+            label = Label(root, text="hosting.eu. MySQL koppling nerkopplad")
             label.pack()
 
     root.mainloop()
@@ -259,12 +255,12 @@ def sqldb4freeInsertQuery():
 # SQl show databases -  show databases.py
 
 
-def sqldb4freeShowDb():
+def sqlhostingShowDb():
     root = Tk()
     try:
-        connection = mysql.connector.connect(user='misk77',
+        connection = mysql.connector.connect(user='u209758462_misk7',
                                              passwd='mi235277sk',
-                                             host='db4free.net',
+                                             host='sql150.main-hosting.eu',
                                              db='')
 
         sql_insert_query = ''' show databases; '''
@@ -277,65 +273,64 @@ def sqldb4freeShowDb():
             label.pack()
         connection.commit()
 
-        label = Label(root, text="SHOW databases körs db4free.net")
+        label = Label(root, text="SHOW databases körs hosting.eu.")
         label.pack()
 
     except mysql.connector.Error as error:
         connection.rollback()  # rollback if any exception occured
-        label = Label(root, text="SHOW databases misslyckades {} db4free.net".format(error))
-        label.pack()
+        label = Label(root, text="SHOW databases misslyckades {} db4free.nethosting.eu.")
     finally:
         # closing database connection.
         if connection.is_connected():
             cursor.close()
             connection.close()
-            label = Label(root, text="db4free.net MySQL koppling nerkopplad")
+            label = Label(root, text="hosting.eu. MySQL koppling nerkopplad")
             label.pack()
 
 
 # USE  database miskdb
 
-def sqldb4freeUsedatabase():
+def sqlhostingUsedatabase():
     root = Tk()
     try:
-        connection = mysql.connector.connect(user='misk77',
+        connection = mysql.connector.connect(user='u209758462_misk7',
                                              passwd='mi235277sk',
-                                             host='db4free.net',
-                                             db='')
+                                             host='sql150.main-hosting.eu',
+                                             db='u209758462_miskb')
 
-        sql_insert_query = ''' USE miskdb; '''
+        sql_insert_query = ''' USE u209758462_miskb	; '''
 
         cursor = connection.cursor()
         result = cursor.execute(sql_insert_query)
         connection.commit()
 
-        label = Label(root, text="Database changed, USE miskdb now db4free.net")
+        label = Label(root, text="Database changed, USE miskdb now hosting.eu.")
         label.pack()
 
     except mysql.connector.Error as error:
         connection.rollback()  # rollback if any exception occured
-        label = Label(root, text="USE Database miskdb misslyckades {} db4free.net".format(error))
+        label = Label(root, text="USE Database miskdb misslyckades {} hosting.eu.".format(error))
         label.pack()
     finally:
         # closing database connection.
         if connection.is_connected():
             cursor.close()
             connection.close()
-            label = Label(root, text="db4free.net MySQL koppling nerkopplad")
+            label = Label(root, text="hosting.eu.MySQL koppling nerkopplad")
             label.pack()
     root.mainloop()
 
 
-def sqldb4freeSelectDB():
+def sqlhostingSelectDB():
     from tkinter import ttk
 
     root = Tk()
 
     try:
-        connection = mysql.connector.connect(user='misk77',
+        connection = mysql.connector.connect(user='u209758462_misk7',
                                              passwd='mi235277sk',
-                                             host='db4free.net',
-                                             db='miskdb')
+                                             host='sql150.main-hosting.eu',
+                                             db='u209758462_miskb')
 
         sql_insert_query = ''' SELECT DATABASE (); '''
 
@@ -352,30 +347,30 @@ def sqldb4freeSelectDB():
         w = Checkbutton(root, values=choices)
         w.pack();
 
-        label = Label(root, text="SELECT DATABASE miskdb db4free.net")
+        label = Label(root, text="SELECT DATABASE miskdb hosting.eu.")
         label.pack()
 
     except mysql.connector.Error as error:
         connection.rollback()  # rollback if any exception occured
-        label = Label(root, text="SELECT DATABASE miskdb misslyckades {} db4free.net".format(error))
+        label = Label(root, text="SELECT DATABASE miskdb misslyckades {} hosting.eu.".format(error))
         label.pack()
     finally:
         # closing database connection.
         if connection.is_connected():
             cursor.close()
             connection.close()
-            label = Label(root, text="db4free.net MySQL koppling nerkopplad")
+            label = Label(root, text="hosting.eu. MySQL koppling nerkopplad")
             label.pack()
     root.mainloop()
 
 
-def sqldb4freeDescribeTable():
+def sqlhostingDescribeTable():
     root = Tk()
     try:
-        connection = mysql.connector.connect(user='misk77',
+        connection = mysql.connector.connect(user='u209758462_misk7',
                                              passwd='mi235277sk',
-                                             host='db4free.net',
-                                             db='miskdb')
+                                             host='sql150.main-hosting.eu',
+                                             db='u209758462_miskb')
 
         sql_insert_query = ''' DESCRIBE profiles; '''
 
@@ -391,26 +386,26 @@ def sqldb4freeDescribeTable():
 
     except mysql.connector.Error as error:
         connection.rollback()  # rollback if any exception occured
-        label = Label(root, text="DESCRIBE profiles misslyckades {} db4free.net".format(error))
+        label = Label(root, text="DESCRIBE profiles misslyckades {} hosting.eu.".format(error))
         label.pack()
     finally:
         # closing database connection.
         if connection.is_connected():
             cursor.close()
             connection.close()
-            label = Label(root, text="db4free.net MySQL koppling nerkopplad")
+            label = Label(root, text="hosting.eu. MySQL koppling nerkopplad")
             label.pack()
     root.mainloop()
 
 
 # Read from Ddatabase
-def sqldb4freeReadFromDB():
+def sqlhostingReadFromDB():
     root = Tk()
     try:
-        connection = mysql.connector.connect(user='misk77',
+        connection = mysql.connector.connect(user='u209758462_misk7',
                                              passwd='mi235277sk',
-                                             host='db4free.net\n',
-                                             db='miskdb')
+                                             host='sql150.main-hosting.eu',
+                                             db='u209758462_miskb')
 
         sql_insert_query = ''' SELECT * FROM profiles '''
 
@@ -425,17 +420,17 @@ def sqldb4freeReadFromDB():
             label = Label(root, text=str(row))
             label.pack()
 
-            label = Label(root, text="Reading profiles now db4free.net")
+            label = Label(root, text="Reading profiles now dhosting.eu.")
             label.pack()
 
     except mysql.connector.Error as error:
         connection.rollback()  # rollback if any exception occured
-        label = Label(root, text="Reading profiles misslyckades {} db4free.net".format(error))
+        label = Label(root, text="Reading profiles misslyckades {} hosting.eu.".format(error))
         label.pack()
     finally:
         # closing database connection.
         if connection.is_connected():
             cursor.close()
             connection.close()
-            label = Label(root, text="db4free.net MySQL koppling nerkopplad")
+            label = Label(root, text="hosting.eu. MySQL koppling nerkopplad")
             label.pack()
